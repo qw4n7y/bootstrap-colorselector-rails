@@ -1,9 +1,23 @@
 = bootstrap-colorselector-rails
 
-Description goes here.
+bootstrap-colorselector-rails wraps the https://github.com/flaute/bootstrap-colorselector library for use in Rails 3.1 and above. Assets will minify automatically during production.
+
+== Usage
+
+Add the following to your Gemfile:
+
+  gem 'bootstrap-colorselector-rails'
+
+Add the following directive to your JavaScript manifest file (application.js):
+
+    //= require bootstrap-colorselector
+
+Add the following directive to your StyleSheet manifest file (application.css):
+
+    //= require bootstrap-colorselector
 
 == Contributing to bootstrap-colorselector-rails
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
